@@ -26,7 +26,7 @@ cron + GitHub Actions の置き換えを狙う、セルフホスト型のジョ�
 | データ | SQLite / Litestream / BigQuery |
 | インフラ | Docker Compose / Cloudflare / GCP / systemd |
 | CI/CD | GitHub Actions |
-| 開発 | Claude Code |
+| 開発 | Claude Code / Codex / Orca |
 
 ## 連絡先
 [X](https://twitter.com/tmhiroak) · [LinkedIn](https://www.linkedin.com/in/tmhiroak)
