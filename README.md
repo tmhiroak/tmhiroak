@@ -3,33 +3,21 @@
 バックオフィスの AI 活用推進を本業にしています。日々の仕事で感じた不便や非効率を、Claude CodeとCodex を使った個人開発のプロダクトで解決しています。
 最近､Orcaを使って､Claude CodeとCodexを協業させて､開発しています｡
 
-作るだけでなく、動かし続けることを大事にしています。ジョブスケジューラ（jete）で定期処理を回し、Cloudflare Workers と Healthchecks.io で外から監視し、障害は公開ステータスページで知らせる——という運用まで、個人の規模で一通り自分で回しています。
+作るだけでなく、動かし続けることを大事にしています。ジョブスケジューラ（jete）で定期処理を回し、Cloudflare Workers と Healthchecks.io で外から監視し、障害は公開ステータスページで知らせるところまで、個人の規模で一通り自分で回しています。
 
 ## プロダクト
 
 <p>
-<a href="https://statuspage.incident.io/tmhiroak-products"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fhealthchecks.io%2Fbadge%2F60e79c32-70f1-4570-8c60-c65ed1%2FdEYJw_dH%2Fs6.shields&style=for-the-badge&label=all%20systems" alt="全体の稼働状況" height="32"></a>
-&nbsp; <a href="https://statuspage.incident.io/tmhiroak-products"><b>ステータスページを開く →</b></a>
+<a href="https://statuspage.incident.io/tmhiroak-products"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fhealthchecks.io%2Fbadge%2F60e79c32-70f1-4570-8c60-c65ed1%2FdEYJw_dH%2Fs6.shields&style=for-the-badge&label=all%20systems" alt="全体の稼働状況" height="32" hspace="4"></a>
+<a href="https://statuspage.incident.io/tmhiroak-products"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/status-button-dark.svg"><img src="assets/status-button.svg" height="32" alt="ステータスページを開く"></picture></a>
 </p>
 
-<table>
-<tr>
-<td><a href="https://nabrahunt.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/row-nabrahunt-dark.svg"><img src="assets/row-nabrahunt.svg" width="648" alt="Nabrahunt：電車・フェリーで行く釣行の計画ツール（招待制ベータ）"></picture></a></td>
-<td width="170" align="center"><a href="https://statuspage.incident.io/tmhiroak-products"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fhealthchecks.io%2Fbadge%2F60e79c32-70f1-4570-8c60-c65ed1%2FgssbywFK%2Fnabrahunt.shields&style=for-the-badge&label=status" alt="Nabrahunt の稼働状況"></a></td>
-</tr>
-<tr>
-<td><a href="https://statuspage.incident.io/tmhiroak-products"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/row-jete-dark.svg"><img src="assets/row-jete.svg" width="648" alt="jete：セルフホスト型ジョブスケジューラ（稼働中・非公開）"></picture></a></td>
-<td width="170" align="center"><a href="https://statuspage.incident.io/tmhiroak-products"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fhealthchecks.io%2Fbadge%2F60e79c32-70f1-4570-8c60-c65ed1%2FY_hV6y9I%2Fjete.shields&style=for-the-badge&label=status" alt="jete の稼働状況"></a></td>
-</tr>
-<tr>
-<td><a href="https://statuspage.incident.io/tmhiroak-products"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/row-encrault-dark.svg"><img src="assets/row-encrault.svg" width="648" alt="Encrault：.env / API キーの Vault（開発中・非公開）"></picture></a></td>
-<td width="170" align="center"><a href="https://statuspage.incident.io/tmhiroak-products"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fhealthchecks.io%2Fbadge%2F60e79c32-70f1-4570-8c60-c65ed1%2F4dVe9KPq%2Fencrault.shields&style=for-the-badge&label=status" alt="Encrault の稼働状況"></a></td>
-</tr>
-<tr>
-<td><a href="https://statuspage.incident.io/tmhiroak-products"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/row-stock-dark.svg"><img src="assets/row-stock.svg" width="648" alt="Stock：個人利用の自動売買システム（稼働中・非公開）"></picture></a></td>
-<td width="170" align="center"><a href="https://statuspage.incident.io/tmhiroak-products"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fhealthchecks.io%2Fbadge%2F60e79c32-70f1-4570-8c60-c65ed1%2FSwlc7aGp%2Fstock.shields&style=for-the-badge&label=status" alt="Stock の稼働状況"></a></td>
-</tr>
-</table>
+<p>
+<a href="https://nabrahunt.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-nabrahunt-dark.svg"><img src="assets/card-nabrahunt.svg" width="400" alt="Nabrahunt（招待制ベータ）：電車・フェリーで行く釣行の計画ツール。天候・波浪・潮汐・交通を一つに束ね、「辿り着けて、釣りになるか」を判定"></picture></a>
+<a href="https://statuspage.incident.io/tmhiroak-products"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-jete-dark.svg"><img src="assets/card-jete.svg" width="400" alt="jete（稼働中・非公開）：セルフホスト型ジョブスケジューラ。cron と GitHub Actions の置き換え。Go の単一バイナリで VPS 上で実運用"></picture></a>
+<a href="https://statuspage.incident.io/tmhiroak-products"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-encrault-dark.svg"><img src="assets/card-encrault.svg" width="400" alt="Encrault（開発中・非公開）：.env / API キーの Vault。キーを一か所に置き、プロジェクト・環境・配布先を参照で結ぶデスクトップアプリ"></picture></a>
+<a href="https://statuspage.incident.io/tmhiroak-products"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-stock-dark.svg"><img src="assets/card-stock.svg" width="400" alt="Stock（稼働中・非公開）：個人利用の自動売買システム。詳細は非公開"></picture></a>
+</p>
 
 ## 使っている技術
 
