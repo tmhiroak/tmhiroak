@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="648" height="104" viewBox="0 0 648 104" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Hiragino Sans','Noto Sans JP',Helvetica,Arial,sans-serif">
+<svg x="4" y="12" width="80" height="80" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="114" fill="#1f7d8c"/>
+  <circle cx="256" cy="256" r="150" fill="none" stroke="#ffffff" stroke-width="30"/>
+  <circle cx="362.07" cy="149.93" r="40" fill="#ffffff"/>
+</svg>
+<text x="104" y="38" font-size="22" font-weight="700" fill="#1f2328">jete<tspan dx="10" font-size="11" font-weight="400" fill="#59636e">稼働中・非公開</tspan></text>
+<text x="104" y="59" font-size="13" font-weight="600" fill="#1f7d8c">セルフホスト型ジョブスケジューラ</text>
+<text x="104" y="78" font-size="12" fill="#59636e">cron と GitHub Actions の置き換え。</text><text x="104" y="95" font-size="12" fill="#59636e">Go の単一バイナリで、VPS 上で実運用している</text>
+</svg>
